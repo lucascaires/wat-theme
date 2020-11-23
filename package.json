@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "alpinejs": "^2.7.3",
-    "laravel-mix": "^5.0.7",
+    "laravel-mix": "^5.0.9",
     "laravel-mix-purgecss": "^5.0.0",
     "tailwindcss": "^1.9.6"
   },
