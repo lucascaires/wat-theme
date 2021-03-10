@@ -1,10 +1,18 @@
 <?php get_header(); ?>
+<div>
+  <div class="container mx-auto">
+    <section class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 m-2 py-10">
+    <?php 
+    if (have_posts()) {
+        while (have_posts()) {
+            the_post();
+            get_template_part('template/post-item');
+        }
+    }
+    ?>
+    </section>
+    
+  </div>
 
-<section class="h-screen flex items-center justify-center bg-gray-800">
-  <h1 class="uppercase font-light text-gray-800 bg-white p-20 text-2xl rounded-lg">
-    WordPress + Alpine.js + Tailwind
-  </h1>
-</section>
-
+</div>
 <?php get_footer(); ?>
-
