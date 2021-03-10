@@ -2,7 +2,7 @@
 WordPress + Alpine.JS + TailwindCSS starter theme
 
 # How to install
-Clone this repo, change the folder name to your project theme name
+Clone this repo, change the folder name to your project theme name, update style.css with your theme information and start to customize. 
 
 # Install dependencies
 
@@ -21,7 +21,7 @@ npm run watch
 ```
 
 # Build for production
-This will also purge Tailwind
+This will also purge unused class from tailwind css build
 
 ```
 npm run prod
@@ -29,8 +29,8 @@ npm run prod
 
 
 # To-do
-[] Create archive page 
-[] Create search page
-[] Create single page
-[] Improve single post page
+- Create archive page 
+- Create search page
+- Create single page
+- Improve single post page
 
