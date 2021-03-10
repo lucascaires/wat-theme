@@ -11,8 +11,9 @@
     }
     ?>
     </section>
-    
+    <?php 
+      get_template_part('components/pagination');
+    ?>    
   </div>
-
 </div>
 <?php get_footer(); ?>

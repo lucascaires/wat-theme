@@ -1,6 +1,5 @@
-<div class="flex space-x-2 text-purple-500">
+<div class="flex space-x-2 text-purple-500 my-10">
 <?php
-
   $pagination =  paginate_links(array(
     'type' => 'array',
     'prev_text' => '&laquo;',
